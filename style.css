@@ -20,3 +20,18 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* HEADER 
+1. Make the background larger by increasing padding
+*/
+.header {
+    background-color: var(--color-grey-900);
+    /*1*/
+    padding: 1.5rem;
+    color: var(--color-grey-100);
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+}
