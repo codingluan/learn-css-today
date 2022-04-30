@@ -119,3 +119,12 @@ body {
     box-shadow: 0 0 9px 0 var(--color-grey-700);
     color: var(--color-grey-100);
 }
+
+/* FOOTER */
+.footer {
+    background-color: var(--color-grey-900);
+    padding: 1.5rem;
+    color: var(--color-grey-100);
+    font-size: 1.5rem;
+    text-align: center;
+}
