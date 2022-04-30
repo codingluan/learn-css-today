@@ -35,3 +35,42 @@ body {
 .header-title {
     margin: 0;
 }
+
+
+/* SECTION */
+.section {
+    padding: 1rem 2rem;
+}
+
+.section-accent {
+    background-color: var(--color-grey-900);
+    color: var(--color-grey-100);
+}
+
+.section-content {
+    padding-left: 1rem;
+    line-height: 1.6;
+}
+
+.skills-list {
+    font-size: 1.2rem;
+}
+
+.projects-list,
+.skills-list {
+    list-style: none;
+    margin: 0;
+}
+
+.section-content.projects-list {
+    color: var(--color-grey-600);
+}
+
+.project-list-item {
+    color: var(--color-grey-600);
+    margin-bottom: 1rem;
+}
+
+.project-list-item:last-child {
+    margin: 0;
+}
